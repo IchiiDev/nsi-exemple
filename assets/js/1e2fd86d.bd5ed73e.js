@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknsi_exemple=self.webpackChunknsi_exemple||[]).push([[234],{8409:function(e){e.exports=JSON.parse('{"allTagsPath":"/nsi-exemple/blog/tags","slug":"/nsi-exemple/blog/tags/facebook","name":"facebook","count":1,"permalink":"/nsi-exemple/blog/tags/facebook"}')}}]);
