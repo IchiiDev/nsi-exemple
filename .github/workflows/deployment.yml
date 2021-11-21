@@ -1,0 +1,32 @@
+name: Auto deploy to GH Pages
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@master
+    
+      - uses: actions/setup-node@master
+        name: Setup NodeJS 12
+        with: 
+          node-version: 12
+
+      - run: yarn install
+        name: Install dependencies
+      
+      - run: |
+          git config --global user.email "45918948+IchiiDev@users.noreply.github.com"
+          git config --global user.name "IchiiDev"
+        name: Setup Git Credentials
+      
+      - run: yarn deploy
+        name: Deploy to gh-pages branch
+        env:
+          GIT_PASS: ${{ secrets.DEPLOYMENT_TOKEN }}
+          GIT_USER: IchiiDev
+          USE_SSH: false
