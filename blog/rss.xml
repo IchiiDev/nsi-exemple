@@ -4,9 +4,15 @@
         <title>My Site Blog</title>
         <link>https://ichiidev.github.io/nsi-exemple/blog</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Article d'exemple]]></title>
+            <link>https://ichiidev.github.io/nsi-exemple/blog/2021/11/21/exemple</link>
+            <guid>Article d'exemple</guid>
+            <pubDate>Sun, 21 Nov 2021 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://ichiidev.github.io/nsi-exemple/blog/welcome</link>
