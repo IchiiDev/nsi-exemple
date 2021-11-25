@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ichiidev.github.io/nsi-exemple/blog</id>
-    <title>My Site Blog</title>
+    <title>Mon Site Blog</title>
     <updated>2021-11-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ichiidev.github.io/nsi-exemple/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Mon Site Blog</subtitle>
     <icon>https://ichiidev.github.io/nsi-exemple/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Article d'exemple]]></title>
